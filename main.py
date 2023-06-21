@@ -1,5 +1,6 @@
 import random
 import os
+import time
 
 numero1=int(input('Digite seu primeiro número: '))
 numero2=int(input('Digite seu segundo número: '))
@@ -10,7 +11,7 @@ numero6=int(input('Digite seu sexto número: '))
 numeros=[numero1,numero2,numero3,numero4,numero5,numero6]
 intervaloNum=range(61)
 soma=int(0)
-
+time.sleep(3)
 
 while True:
     soma=soma+1
